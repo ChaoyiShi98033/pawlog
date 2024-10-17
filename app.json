@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "pawlog",
+    "slug": "pawlog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBquY8kH1FR9G-_g0jhnp8m6YdYYi2v3Tw"
+      },
+      "bundleIdentifier": "com.cs5520.pawlog"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.cs5520.pawlog"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app accesses your camera to take photos of your dogs.",
+          "photosPermission": "The app accesses your photos to select photos of your dogs."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Mallkis.ttf",
+            "./assets/fonts/Roboto-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "owner": "anqiguo",
+    "extra": {
+      "eas": {
+        "projectId": "e6dab993-f9d0-44e3-b78f-3e5ec1cef78d"
+      }
+    }
+  }
+}
