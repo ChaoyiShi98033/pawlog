@@ -8,6 +8,9 @@ Our app enhances the lives of dog owners and their furry companions through vari
 
 Experience Pawlog, where every step is cherished, and managing your dog's needs is effortless.
 
+## Pawlog App Demo
+https://www.youtube.com/watch?v=hn8nNHya4NE
+
 ## Iteration 3 has added the following:
 Notification
 
